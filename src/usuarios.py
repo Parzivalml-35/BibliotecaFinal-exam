@@ -13,7 +13,13 @@ class Usuario:
         self.tipo_usuario = tipo_usuario
 
     def __del__(self):
-        print(f"Usuario {self.id} eliminado")
+        """
+        Destructor - se ejecuta cuando se elimina el objeto.
+        
+        Registra la eliminación del usuario (para auditoría).
+        Esto demuestra el uso de destructores en POO.
+        """
+        print(f"[DESTRUCTOR] Usuario '{self._id}' ({self._nombre}) eliminado del sistema")
 
     @property
     def id(self):

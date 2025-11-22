@@ -30,6 +30,31 @@ def main():
     biblio.registrar_material(libro3)
     print(f"Materiales registrados: {len(biblio.listar_materiales())}")
     
+    # ========== DEMOSTRACIÓN DE HERENCIA MÚLTIPLE ==========
+    print("\n=== DEMOSTRACIÓN DE HERENCIA MÚLTIPLE ===")
+    print("\n[LIBRO FÍSICO - Herencia: MaterialBibliografico + Imprimible]")
+    print(f"  Info: {libro1.mostrar_info()}")
+    print(f"  Acción: {libro1.imprimir(copias=2, a_color=True)}")
+    print(f"  Total impresiones: {libro1.get_contador_impresiones()}")
+    
+    print("\n[LIBRO DIGITAL - Herencia: MaterialBibliografico + Descargable]")
+    print(f"  Info: {libro2.mostrar_info()}")
+    print(f"  Acción: {libro2.descargar(formato='epub', guardar_localmente=True)}")
+    print(f"  Total descargas: {libro2.get_contador_descargas()}")
+    print(f"  Formatos disponibles: {libro2.obtener_formatos()}")
+    
+    # ========== BÚSQUEDA SOBRECARGADA ==========
+    print("\n=== BÚSQUEDA SOBRECARGADA (por múltiples criterios) ===")
+    resultados = biblio.buscar_material(titulo="Python")
+    print(f"Búsqueda por título 'Python': {len(resultados)} resultado(s)")
+    for m in resultados:
+        print(f"  • {m.mostrar_info()}")
+    
+    resultados = biblio.buscar_material(autor="Knuth")
+    print(f"\nBúsqueda por autor 'Knuth': {len(resultados)} resultado(s)")
+    for m in resultados:
+        print(f"  • {m.mostrar_info()}")
+    
     # ========== REALIZAR PRÉSTAMOS ==========
     print("\n=== REALIZANDO PRÉSTAMOS ===")
     try:

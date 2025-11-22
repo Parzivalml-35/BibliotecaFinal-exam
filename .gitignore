@@ -41,3 +41,27 @@ Thumbs.db
 *.csv
 *.db
 *.log
+
+# Educational materials (for learning purposes only)
+apuntes-educativos/
+
+# Temporary documentation (not needed in final repo)
+ESTADO.md
+PROYECTO_FINAL.md
+RESUMEN_FINAL.md
+INVENTARIO.md
+LEE_ESTO_PRIMERO.md
+HOJA_REFERENCIA.md
+ENCAPSULAMIENTO_EXPLICADO.md
+PROPERTY_AVANZADO.md
+ENCAPSULAMIENTO_VISUAL.md
+REGEX_EXPLICADO.md
+INICIO_AQUI.md
+VERIFICACION_FINAL.md
+RESUMEN_QUE_SE_HIZO.md
+ESTRUCTURA_PROYECTO.md
+INDICE_DOCUMENTACION.md
+INSTRUCCIONES_ENTREGA.md
+NOTAS_ENTREGA.md
+CHECKLIST_ENTREGA.md
+
