@@ -412,14 +412,7 @@ Demuestra:
 - Gestión de préstamos
 - Devoluciones
 
-### Opción 3: Interfaz Gráfica (Opcional)
 
-```bash
-cd src
-python gui_biblioteca.py
-```
-
-Interfaz visual para interactuar con el sistema (no requerida por criterios).
 
 ---
 
@@ -434,11 +427,10 @@ BibliotecaFinal-exam/
 │   ├── prestamos.py             ← Clase Préstamo (Gestión)
 │   ├── sistema.py               ← Clase Biblioteca (Búsqueda sobrecargada)
 │   ├── main.py                  ← Demostración
-│   ├── gui_biblioteca.py        ← Interfaz gráfica (opcional)
-│   ├── __init__.py
-│   └── casos_prueba.py          ← 10 CASOS DE PRUEBA OBLIGATORIOS
+	│   ├── __init__.py
+	│   └── casos_prueba.py          ← 10 CASOS DE PRUEBA OBLIGATORIOS
 │
-├── docs/                        ← Documentación adicional (opcional)
+	├── docs/                        ← Documentación técnica
 │
 └── INFORME_TECNICO.md          ← Este archivo
 ```

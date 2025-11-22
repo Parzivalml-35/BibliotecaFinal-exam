@@ -1,163 +1,68 @@
-# README_DOCS.md - Índice de Documentación
+# 📚 Documentación - Sistema de Biblioteca
 
-## 📚 MAPA COMPLETO DE DOCUMENTACIÓN
+## 🎯 Referencia Técnica de Requisitos POO
 
----
-
-## 🚀 CARPETA: `01_inicio/` (5-30 minutos)
-
-**Para:** Todos - Empieza aquí
-
-| # | Archivo | Tiempo | Contenido |
-|---|---------|--------|----------|
-| 00 | `00_LEEME_PRIMERO.md` | 2 min | Bienvenida |
-| 01 | `01_INICIO_RAPIDO.md` | 5 min | Ejecutar app |
-| 02 | `02_PARA_QUE_SIRVE.md` | 10 min | Qué aprenderás |
-
-**→ Lee en orden: 00 → 01 → 02**
+Documentación técnica breve sobre los 9 requisitos de Programación Orientada a Objetos implementados.
 
 ---
 
-## 📖 CARPETA: `02_guias/` (1-2 horas)
+## 📋 Documentos por Requisito
 
-**Para:** Estudiantes - Aprendizaje profundo
-
-| # | Archivo | Tiempo | Tema |
-|---|---------|--------|------|
-| 03 | `03_MANUAL_USUARIO.md` | 20 min | Cómo usar la GUI |
-| 04 | `04_RESUMEN_EJECUTIVO.md` | 15 min | Overview del proyecto |
-| 05 | `05_GUIA_TKINTER.md` | 60 min | Cómo funciona Tkinter |
-| 06 | `06_GUIA_PROYECTO.md` | 30 min | Arquitectura del proyecto |
-| 07 | `07_RESUMEN_COMPLETO.md` | 15 min | Resumen técnico |
-
-**→ Lee en orden: 03 → 04 → 05 → 06 → 07**
+| Requisito | Archivo | Descripción |
+|-----------|---------|-------------|
+| **1** | `ENCAPSULAMIENTO.md` | Atributos protegidos, @property, validación |
+| **2** | `HERENCIA_MULTIPLE.md` | Mix-ins, LibroFisico + LibroDigital |
+| **3** | `POLIMORFISMO.md` | @abstractmethod, clases abstractas |
+| **4** | `BUSQUEDA_SOBRECARGA.md` | Búsqueda flexible con **kwargs |
+| **5** | `DESTRUCTORES.md` | `__del__()` en Usuario |
+| **6** | `VALIDACIONES.md` | 5 tipos de validación implementados |
 
 ---
 
-## 💻 CARPETA: `03_ejemplos/` (1-2 horas)
+## 🚀 Ejecución Rápida
 
-**Para:** Practicantes - Código ejecutable
+```bash
+# Ver todos los casos de prueba (10/10 PASS)
+python src/casos_prueba.py
 
-| # | Archivo | Tiempo | Contenido |
-|---|---------|--------|----------|
-| 08 | `08_EJEMPLOS_TKINTER.py` | 60 min | 10 ejemplos ejecutables |
-| 09 | `09_CASOS_USO.md` | 30 min | Casos de uso reales |
-
-**→ Ejecuta:** `python ../03_ejemplos/08_EJEMPLOS_TKINTER.py`
-
----
-
-## ⚡ CARPETA: `04_referencia/` (Consulta)
-
-**Para:** Todos - Búsqueda rápida
-
-| # | Archivo | Contenido |
-|---|---------|----------|
-| 10 | `INDICE_COMPLETO.md` | Tabla de contenidos |
-| 11 | `CHEAT_SHEET.md` | Trucos rápidos |
-
-**→ Consulta cuando necesites**
-
----
-
-## 🏁 ARCHIVO RAÍZ: `../README.md`
-
-**Para:** Evaluadores - Inicio general
-
-Punto de entrada del proyecto
-
----
-
-## 🗺️ RUTAS DE APRENDIZAJE
-
-### 👤 Ruta 1: Usuario Final (30 min)
-```
-00_LEEME_PRIMERO.md
-    ↓
-01_INICIO_RAPIDO.md
-    ↓
-Ejecuta: python src/gui_biblioteca.py
-    ↓
-03_MANUAL_USUARIO.md
-```
-
-### 👨‍💻 Ruta 2: Desarrollador (2-3 horas)
-```
-00_LEEME_PRIMERO.md
-01_INICIO_RAPIDO.md
-02_PARA_QUE_SIRVE.md
-    ↓
-03_MANUAL_USUARIO.md
-04_RESUMEN_EJECUTIVO.md
-07_RESUMEN_COMPLETO.md
-    ↓
-05_GUIA_TKINTER.md
-06_GUIA_PROYECTO.md
-```
-
-### 🏆 Ruta 3: Experto (4-5 horas)
-```
-Ruta 2 completa
-    ↓
-08_EJEMPLOS_TKINTER.py (ejecutar)
-    ↓
-Lee código: src/gui_biblioteca.py
-    ↓
-09_CASOS_USO.md
-    ↓
-CHEAT_SHEET.md
+# Ver demostración del sistema
+python src/main.py
 ```
 
 ---
 
-## 📊 TABLA DE REFERENCIA RÁPIDA
+## 📁 Estructura de Documentación
 
-### Por Objetivo
-
-| Necesito... | Lee... |
-|-------------|--------|
-| Ejecutar la app | `01_INICIO_RAPIDO.md` |
-| Usar la GUI | `03_MANUAL_USUARIO.md` |
-| Aprender Tkinter | `05_GUIA_TKINTER.md` |
-| Entender arquitectura | `06_GUIA_PROYECTO.md` |
-| Ver ejemplos | `08_EJEMPLOS_TKINTER.py` |
-| Buscar algo rápido | `CHEAT_SHEET.md` |
-
-### Por Tiempo
-
-| Tengo... | Lee... |
-|----------|--------|
-| 5 min | `01_INICIO_RAPIDO.md` |
-| 30 min | Ruta 1 completa |
-| 2-3 horas | Ruta 2 completa |
-| 4-5 horas | Ruta 3 completa |
-
-### Por Rol
-
-| Soy... | Lee... |
-|--------|--------|
-| Usuario | Ruta 1 |
-| Estudiante | Ruta 2 |
-| Experto | Ruta 3 |
-| Evaluador | `../README.md` |
+```
+docs/
+├── README_DOCS.md                    ← Este archivo
+├── ENCAPSULAMIENTO.md                ← Requisito 1
+├── HERENCIA_MULTIPLE.md              ← Requisito 2
+├── POLIMORFISMO.md                   ← Requisito 3
+├── BUSQUEDA_SOBRECARGA.md            ← Requisito 4
+├── DESTRUCTORES.md                   ← Requisito 5
+├── VALIDACIONES.md                   ← Requisito 6
+│
+├── 01_inicio/                        ← Intro rápida
+├── 02_guias/                         ← Guías técnicas
+└── 03_ejemplos/                      ← Ejemplos de código
+```
 
 ---
 
-## 🎯 CADA DOCUMENTO EXPLICA
+## ✅ Requisitos Cumplidos
 
-| # | Archivo | Explica |
-|---|---------|---------|
-| 00 | Bienvenida | ¿Qué es esto? |
-| 01 | Inicio | ¿Cómo lo ejecuto? |
-| 02 | Propósito | ¿Qué aprendo? |
-| 03 | Manual | ¿Cómo lo uso? |
-| 04 | Overview | ¿Cómo está estructurado? |
-| 05 | Tkinter | ¿Cómo funcionan las GUIs? |
-| 06 | Proyecto | ¿Cómo está organizado? |
-| 07 | Resumen | ¿Qué fue todo esto? |
-| 08 | Ejemplos | ¿Cómo codifico? |
-| 09 | Casos | ¿Cuáles son usos reales? |
-| 10 | Índice | ¿Dónde está todo? |
+- ✅ Herencia y Polimorfismo
+- ✅ Encapsulamiento con @property
+- ✅ Validaciones robustas
+- ✅ Clases abstractas (ABC)
+- ✅ Sobrecarga de métodos (**kwargs)
+- ✅ Destructores (__del__)
+- ✅ 10 casos de prueba (100% éxito)
+
+---
+
+**Para más información, consulta el README.md principal**
 | 11 | Cheat | ¿Cómo lo hago rápido? |
 
 ---

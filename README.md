@@ -152,80 +152,6 @@ def correo(self, value):
 
 ---
 
-## 🎮 Cómo Usar
-
-### Registrar Usuario
-```
-Pestaña: 👤 Usuarios
-ID: U001
-Nombre: Juan Pérez
-Correo: juan@email.com
-Tipo: estudiante
-→ Registrar
-```
-
-### Registrar Material
-```
-Pestaña: 📖 Materiales
-Tipo: Libro Físico
-Código: LIB001
-Título: Python Avanzado
-Autor: Guido van Rossum
-Año: 2023
-Ubicación: Estantería A1
-→ Registrar
-```
-
-### Hacer Préstamo
-```
-Pestaña: 🔄 Préstamos
-ID Usuario: U001
-Código Material: LIB001
-→ Registrar Préstamo
-→ Ver en "Préstamos Activos"
-```
-
----
-
-## 🐛 Solución de Problemas
-
-### "No abre la ventana"
-```bash
-# Verifica Tkinter
-python -m tkinter
-```
-
-### "Módulo no encontrado"
-```bash
-# Asegúrate de estar aquí:
-cd e:\PROGRAMACION\parcialFinal
-# Y que src/ exista:
-ls src/
-```
-
-### "Error de validación"
-```
-✓ Llena TODOS los campos
-✓ Correo válido: usuario@dominio.com
-✓ No dejes espacios en blanco
-```
-
----
-
-## 📊 Contenido
-
-| Carpeta | Archivos | Contenido |
-|---------|----------|----------|
-| `src/` | 7 .py | Código ejecutable |
-| `docs/01_inicio/` | 3 .md | Inicio (30 min) |
-| `docs/02_guias/` | 5 .md | Guías (2 horas) |
-| `docs/03_ejemplos/` | 2 | Código ejemplo (2 horas) |
-| `docs/04_referencia/` | 2 | Consulta rápida |
-
-**Total:** 766 líneas de código + 5000+ de documentación
-
----
-
 ## 🎓 Conceptos Aprendidos
 
 ✅ Clases y Objetos
@@ -260,56 +186,6 @@ ls src/
 
 ---
 
-## 🚀 Próximos Pasos
-
-### Ahora (2 min)
-```bash
-python src/gui_biblioteca.py
-```
-
-### Luego (30 min)
-Lee: `docs/01_inicio/00_LEEME_PRIMERO.md`
-
-### Después (2-3 horas)
-Estudia: `docs/02_guias/`
-
-### Finalmente (1-2 horas)
-Practica: `docs/03_ejemplos/`
-
----
-
-## 📞 FAQ
-
-**P: ¿Dónde empiezo?**
-R: Ejecuta `python src/gui_biblioteca.py` luego lee `docs/01_inicio/`
-
-**P: ¿Se guardan los datos?**
-R: En memoria (se pierden al cerrar). Para persistencia: JSON/SQLite
-
-**P: ¿Puedo modificarlo?**
-R: Sí, está diseñado para aprender modificando
-
-**P: ¿Es gratis?**
-R: 100% gratuito y open-source
-
-**P: ¿Dónde está la documentación?**
-R: En `docs/` - lee [`docs/README_DOCS.md`](docs/README_DOCS.md)
-
----
-
-## 🎉 Resumen
-
-Tienes:
-- ✅ Aplicación GUI funcionando
-- ✅ Código profesional
-- ✅ Documentación completa
-- ✅ 10 ejemplos prácticos
-- ✅ Todo en español
-
-**¡Listo para aprender! 📚**
-
----
-
 ## 🔗 Entrada Rápida
 
 | Necesito... | Hago... |
@@ -321,7 +197,5 @@ Tienes:
 | Practicar | Ejecuta `docs/03_ejemplos/08_EJEMPLOS_TKINTER.py` |
 
 ---
-
-**Creado con ❤️ para estudiantes de desarrollo**
 
 **👉 [Comienza aquí →](docs/01_inicio/00_LEEME_PRIMERO.md)**
