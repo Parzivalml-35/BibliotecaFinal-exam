@@ -1,0 +1,152 @@
+# INICIO RAPIDO - 5 Minutos
+
+## 🎯 En 5 minutos tu GUI funcionará
+
+### Paso 1: Abrir Terminal (30 segundos)
+```
+Windows:
+- Presiona: Windows + R
+- Escribe: cmd
+- Presiona: Enter
+
+Mac/Linux:
+- Abre Terminal
+```
+
+### Paso 2: Ir a la Carpeta (30 segundos)
+```bash
+cd e:\PROGRAMACION\parcialFinal
+```
+
+### Paso 3: Ejecutar la GUI (2 minutos)
+```bash
+python gui_biblioteca.py
+```
+
+**¡LISTO! La ventana debe abrirse 🎉**
+
+---
+
+## ✅ Primeras Acciones (2 minutos 30 segundos)
+
+### 1. Registrar un Usuario
+1. Click en pestaña "👤 Usuarios"
+2. Llena los campos:
+   - ID: `U001`
+   - Nombre: `Juan Pérez`
+   - Correo: `juan@email.com`
+   - Tipo: `estudiante`
+3. Click: `✓ Registrar Usuario`
+4. ¡Aparecerá en la lista! ✓
+
+### 2. Registrar un Material
+1. Click en pestaña "📖 Materiales"
+2. Llena los campos:
+   - Tipo: `Libro Físico`
+   - Código: `LIB001`
+   - Título: `Python Avanzado`
+   - Autor: `Guido van Rossum`
+   - Año: `2023`
+   - Ubicación: `Estantería A1`
+3. Click: `✓ Registrar Material`
+4. ¡Aparecerá en la lista! ✓
+
+### 3. Hacer un Préstamo
+1. Click en pestaña "🔄 Préstamos"
+2. Llena:
+   - ID Usuario: `U001`
+   - Código Material: `LIB001`
+3. Click: `✓ Registrar Préstamo`
+4. ¡Verás en "Préstamos Activos"! ✓
+
+### 4. Devolver Material
+1. En "🔄 Préstamos"
+2. Código Material: `LIB001`
+3. Click: `↩ Registrar Devolución`
+4. ¡Se marca como devuelto! ✓
+
+---
+
+## 🎓 Siguiente: Aprender Tkinter
+
+1. **Lee**: `RESUMEN_TKINTER.md` (10 minutos)
+2. **Práctica**: Ejecuta `python ejemplos_tkinter.py` (15 minutos)
+3. **Código**: Modifica `gui_biblioteca.py` (30 minutos)
+
+---
+
+## 📚 Documentos en Orden
+
+1. **ESTE ARCHIVO** ← Empezar aquí ✓
+2. `RESUMEN_TKINTER.md` ← Entender qué es Tkinter
+3. `MANUAL_GUI.md` ← Cómo usar la interfaz
+4. `GUIA_TKINTER.md` ← Todo sobre Tkinter
+5. `ejemplos_tkinter.py` ← Código de ejemplo
+6. `gui_biblioteca.py` ← Ver el código real
+
+---
+
+## ❌ Si algo no funciona
+
+### Error: "No such file or directory"
+```
+✗ Mal: python gui_biblioteca.py
+   (desde otra carpeta)
+
+✓ Bien:
+   cd e:\PROGRAMACION\parcialFinal
+   python gui_biblioteca.py
+```
+
+### Error: "ModuleNotFoundError"
+```bash
+# Asegúrate que estés en la carpeta correcta
+# y que todos los archivos .py estén aquí
+ls
+# Debe mostrar: usuarios.py, materiales.py, etc.
+```
+
+### La GUI no se abre
+```bash
+# Verifica que Tkinter esté instalado
+python -c "import tkinter; print('OK')"
+```
+
+---
+
+## 💡 Tips Rápidos
+
+- ✅ Puedes tener múltiples usuarios y materiales
+- ✅ Puedes hacer múltiples préstamos
+- ✅ Los datos se pierden al cerrar (esto es normal)
+- ✅ Todos los campos tienen validación automática
+
+---
+
+## 🔗 Flujo Completo
+
+```
+1. Ejecutar GUI
+   ↓
+2. Registrar Usuario
+   ↓
+3. Registrar Material
+   ↓
+4. Hacer Préstamo
+   ↓
+5. Ver Préstamo Activo
+   ↓
+6. Devolver Material
+   ↓
+7. FIN ✓
+```
+
+---
+
+**¿LISTO? 🚀**
+
+```bash
+python gui_biblioteca.py
+```
+
+**¡Diviértete explorando tu Sistema de Biblioteca!**
