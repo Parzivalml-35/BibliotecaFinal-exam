@@ -75,23 +75,23 @@ BibliotecaFinal-exam/
 
 ## 🎓 Conceptos Aprendidos
 
-✅ Clases y Objetos
-✅ Herencia y Polimorfismo
-✅ Clases Abstractas (ABC)
-✅ Propiedades y Validación
-✅ Organización Profesional
+- ✅ Clases y Objetos
+- ✅ Herencia y Polimorfismo
+- ✅ Clases Abstractas (ABC)
+- ✅ Propiedades y Validación
+- ✅ Organización Profesional
 
 ---
 
 ## 🏆 Mejores Prácticas
 
-✅ Separación: `src/` código, `docs/` documentación
-✅ Nombres claros y descriptivos
-✅ Comentarios y docstrings
-✅ Validación robusta
-✅ Manejo de errores
-✅ .gitignore profesional
-✅ Estructura escalable
+- ✅ Separación: `src/` código, `docs/` documentación
+- ✅ Nombres claros y descriptivos
+- ✅ Comentarios y docstrings
+- ✅ Validación robusta
+- ✅ Manejo de errores
+- ✅ .gitignore profesional
+- ✅ Estructura escalable
 
 ---
 
