@@ -43,18 +43,22 @@ Thumbs.db
 *.log
 
 # Documentation - Ignore all docs/ by default
-docs/
+#docs/
+docs/01_inicio/
+docs/02_guias/
+docs/03_ejemplos/
+docs/04_referencias/
 
 # Educational materials (for learning purposes only)
 apuntes-educativos/
 
 # EXPLICITLY INCLUDE these documentation files (referenced in README.md)
-!docs/HERENCIA_MULTIPLE.md
-!docs/BUSQUEDA_SOBRECARGA.md
-!docs/ENCAPSULAMIENTO.md
-!docs/DESTRUCTORES.md
-!docs/POLIMORFISMO.md
-!docs/VALIDACIONES.md
+#!docs/HERENCIA_MULTIPLE.md
+#!docs/BUSQUEDA_SOBRECARGA.md
+#!docs/ENCAPSULAMIENTO.md
+#!docs/DESTRUCTORES.md
+#!docs/POLIMORFISMO.md
+#!docs/VALIDACIONES.md
 RESUMEN_FINAL.md
 INVENTARIO.md
 LEE_ESTO_PRIMERO.md
