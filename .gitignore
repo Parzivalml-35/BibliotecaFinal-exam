@@ -36,18 +36,25 @@ env/
 .DS_Store
 Thumbs.db
 
-# Project specific
+# Project specific - Ignore by default
 *.json
 *.csv
 *.db
 *.log
 
+# Documentation - Ignore all docs/ by default
+docs/
+
 # Educational materials (for learning purposes only)
 apuntes-educativos/
 
-# Temporary documentation (not needed in final repo)
-ESTADO.md
-PROYECTO_FINAL.md
+# EXPLICITLY INCLUDE these documentation files (referenced in README.md)
+!docs/HERENCIA_MULTIPLE.md
+!docs/BUSQUEDA_SOBRECARGA.md
+!docs/ENCAPSULAMIENTO.md
+!docs/DESTRUCTORES.md
+!docs/POLIMORFISMO.md
+!docs/VALIDACIONES.md
 RESUMEN_FINAL.md
 INVENTARIO.md
 LEE_ESTO_PRIMERO.md
@@ -64,4 +71,4 @@ INDICE_DOCUMENTACION.md
 INSTRUCCIONES_ENTREGA.md
 NOTAS_ENTREGA.md
 CHECKLIST_ENTREGA.md
-
+INFORME_TECNICO.md
