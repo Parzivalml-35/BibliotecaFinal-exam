@@ -14,7 +14,7 @@
 python src/casos_prueba.py
 ```
 
-**Resultado esperado:** 10/10 EXITOSOS (100%)
+**Resultado esperado:**
 
 ### Ver la demostración del sistema:
 
@@ -35,8 +35,8 @@ python main.py
 | **5** | Destructores | `__del__()` en Usuario | [`docs/DESTRUCTORES.md`](docs/DESTRUCTORES.md) |
 | **6** | Polimorfismo | @abstractmethod | [`docs/POLIMORFISMO.md`](docs/POLIMORFISMO.md) |
 | **7** | Validaciones | ID único, email, préstamo | [`docs/VALIDACIONES.md`](docs/VALIDACIONES.md) |
-| **8** | Ejecución Consola | 100% terminal | `src/casos_prueba.py` |
-| **9** | Casos de Prueba | 10 casos, 100% éxito | `src/casos_prueba.py` |
+| **8** | Ejecución Consola | terminal | `src/casos_prueba.py` |
+| **9** | Casos de Prueba | 10 casos | `src/casos_prueba.py` |
 
 ---
 
@@ -50,10 +50,9 @@ BibliotecaFinal-exam/
 │   ├── prestamos.py             (Gestión de préstamos)
 │   ├── sistema.py               (Búsqueda sobrecargada)
 │   ├── main.py                  (Demostración)
-│   ├── gui_biblioteca.py        (Interfaz gráfica - opcional)
 │   └── casos_prueba.py          (10 CASOS DE PRUEBA)
 │
-└── INFORME_TECNICO.md          (Documentación completa)
+└── README.md                    (Presentacion del proyecto)
 ```
 
 ---
@@ -71,7 +70,6 @@ BibliotecaFinal-exam/
 9. ✅ Detectar préstamo vencido
 10. ✅ Listar préstamos activos
 
-**Resultado: 10/10 PASAN (100% éxito)**
 
 ---
 
@@ -81,8 +79,6 @@ BibliotecaFinal-exam/
 ✅ Herencia y Polimorfismo
 ✅ Clases Abstractas (ABC)
 ✅ Propiedades y Validación
-✅ Eventos y Callbacks
-✅ Patrón MVC
 ✅ Organización Profesional
 
 ---

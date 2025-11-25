@@ -53,13 +53,8 @@ docs/04_referencias/
 apuntes-educativos/
 
 # EXPLICITLY INCLUDE these documentation files (referenced in README.md)
-#!docs/HERENCIA_MULTIPLE.md
-#!docs/BUSQUEDA_SOBRECARGA.md
-#!docs/ENCAPSULAMIENTO.md
-#!docs/DESTRUCTORES.md
-#!docs/POLIMORFISMO.md
-#!docs/VALIDACIONES.md
-RESUMEN_FINAL.md
+!docs/README_DOCS.md
+!docs/RESUMEN_FINAL.md
 INVENTARIO.md
 LEE_ESTO_PRIMERO.md
 HOJA_REFERENCIA.md
