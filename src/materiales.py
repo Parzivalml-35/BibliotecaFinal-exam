@@ -12,6 +12,11 @@ class MaterialBibliografico(ABC):
     def mostrar_info(self):
         pass
 
+    # AGREGAR en la clase MaterialBibliografico (después de las otras properties):
+    @property
+    def autor(self):
+        return self._autor    
+
     @property
     def codigo(self):
         return self._codigo
